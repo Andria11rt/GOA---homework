@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 70px;
+    box-sizing: border-box;
+}
+
+:root {
+    --back-color: chocolate;
+    --div-text-size: 0.9em;
+    --div-text-font: cursive;
+    --div-text-color: white;
+    --div-width: 700px;
+    --div-height: 300px;
+}
+
+
+div{
+    width: var(--div-width);
+    height: var(--div-height);
+    background-color: cadetblue;
+
+    background-color: var(--back-color);
+
+}
+
+div p{
+    font-size: var(--div-text-font);
+    color: var(--div-text-color);
+    font-family: var(--div-text-font);
+}
+
+button{
+    font-family: var(--div-text-font);
+    width: var(--div-width);
+    height: var(--div-height);
+    background-color: var(--back-color);
+    color: var(--div-text-color);
+}

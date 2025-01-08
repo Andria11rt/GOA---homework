@@ -1,0 +1,38 @@
+* {
+    padding: var(--padding);
+    margin: var(--margin);
+}
+:root{
+   --color: red;
+   --background-color: yellow;
+   --font-size: 350px;
+   --letter-spacing: 9px;
+   --display: flex;
+   --flex: 30%;
+   --grid: 1 / 5;
+   --padding: 0;
+   --margin: 0;
+   --position: sticky;
+   --transform: rotate(90px);
+   --transition: margin-right 4s 1s;
+}
+
+.item1{
+    color: var(--color);
+    font-size: var(--font-size);
+    display: var(--flex);
+    align-items: center;
+}
+
+.item2 {
+    background-color: var(--background-color);
+    flex: var(--flex);
+    transform: var(--transform);
+    transition: var(--transition);
+}
+
+.item3 {
+    grid: var(--grid);
+    letter-spacing: var(--letter-spacing);
+    position: var(--position);
+}

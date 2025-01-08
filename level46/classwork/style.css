@@ -1,0 +1,35 @@
+
+.maindiv{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 400px;
+    margin-left: 500px;
+    padding: 20px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.name{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+
+.lastname{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+button {     
+    background-color:  rgb(0, 109, 91);
+    color: white;     
+    border: none;
+    cursor: pointer;     
+    transition: background-color 0.3s;
+}     
+ button:hover {     
+    background-color: rgb(0, 76, 66);   
+}

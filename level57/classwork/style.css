@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 350px;
+    height: 350px;
+    background-color: orange;
+    font-size: 3em;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    padding-top: 144px;
+
+   /*transform: rotate(90deg); ატრიალებს */
+   /*transform: rotateX(90deg);  პრესავს ზევიდან და ქვევიდან*/
+   /*transform: rotateY(90deg);   პრესავს მარჯვნიდან და მარცხნიდან*/
+
+   /* transition: 1s; */
+
+/*                          X      Y     */
+  /* transform: translate(300px, 300px); გადაადგილდება ორივე X და Y და ინარჩუნებს ორივეს*/
+  /* transform: translateX(300px); გადაადგილდება მრჯვნივ მარცხბივ*/
+  /* transform: translateY(300px); გადაადგილდება ზევით ქვევით*/
+
+
+  /* transform: scale(1); ფორმის შეცვლა ცვლის ფორმას არჩეული ობიექტის*/
+  /* transform: scaleX(1); ფორმის შეცვლა ცვლის ფორმას მარჯვნივ მარცხნივ მხარეს*/
+  /* transform: scaleY(1); ფორმის შეცვლა ცვლის ფორმას ზევით ქვევით მხარეს*/
+
+/*                     X      Y     */
+  /* transform: skew(30deg, 30deg); */
+  /* transform: skewX(30deg); */
+  /* transform: skewY(30deg); */
+
+  /* transform: rotate(90deg) translate(350px)  scale(2) skew(30deg); */
+}
+
+
+/* div:hover{
+    transform: rotate(90deg);
+} */

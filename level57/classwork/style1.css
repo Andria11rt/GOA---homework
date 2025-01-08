@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Z{
+    width: 350px;
+    height: 350px;
+    background-color: orange;
+    font-size: 3em;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    padding-top: 144px;
+
+    transform: rotate(90deg)
+}
+
+.Z:hover{
+    transform: rotate(190deg);
+}
+
+.O{
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    font-size: 3em;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    padding-top: 144px;
+
+    transform: translate(300px);
+}
+
+.O:hover{
+    transform: translate(500px);
+}
+
+.T{
+    width: 350px;
+    height: 350px;
+    background-color: Blue;
+    font-size: 3em;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    padding-top: 144px;
+    
+    transform: scale(0.9);
+}
+
+.T:hover{
+    transform: scale(1.5);
+}
+
+.Tr{
+    width: 350px;
+    height: 350px;
+    background-color: lime;
+    font-size: 3em;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    padding-top: 144px;
+    
+    transform: skew(30deg);
+}
+
+.Tr:hover{
+    transform: skew(90deg);
+}
+
+.GG:hover{
+    transform: scale(1.2);
+    transform: translate(500px);
+    transform: rotate(190deg);
+}
+
+.A{
+    color: black;
+    transform: translate(600px);
+}
+
+.A:hover{
+    transform: rotate(15deg);
+    color: darkblue;
+}

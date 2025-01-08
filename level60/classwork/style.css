@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+div{
+    width: 350px;
+    height: 350px;
+    background-color: cadetblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: crimson;
+    font-family: cursive;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    font-weight: bolder;
+
+
+    transition-duration: 1s; /* განსაზღვრავს თუ რამდენი წამის განმავლობაში უნდა განხორციელდეს ცვლილებები */
+
+    transition-delay: 0; /* განსაზღვრავს შეფერხების დროს, მაგ: როდესაც მნიშნელობის სახით გავუწერთ 3წამს, მაშინ
+    სანამ 3 წამი არ გავა, მანამდე არ განხორციელდება მოქმედება/ცვლილება */
+
+    transition-timing-function: cubic-bezier(.87, .6, .28, .94); /* განსაზღვრავს თუ რა სიჩქარით უნდა მოხდეს 
+    ცვლილება, ან ძალიან სწრაფად ან ზალიან ნელა */
+
+    transition-property: background-color, color, letter-spacing, width, height; /* გადავცემთ ისეთ მნიშნელობებს,
+    რომელზეც გვინდა, რომ გამოვიყენოთ transition */
+
+    transition: 1s 3s all cubic-bezier(1, 0, 0, 1);
+
+}
+
+div:hover{
+    background-color: chocolate;
+    color: white;
+    letter-spacing: 5px;
+    width: 500px;
+    height: 50px;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+main{
+    width: 1100px;
+    height: 900px;
+    border: 3px solid black;
+}
+
+main .divs{
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    border: 5px solid red;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+main{
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: start;
+
+    align-items: start;
+
+    flex-wrap: wrap;
+
+   /* gap: 30px; */
+
+   /* row-gap: 50px; */
+
+   /* column-gap: 50px; */
+
+    
+}
+
+/*.item1 {
+
+   /* flex-grow: 1; */
+
+   /* flex-basis: 300px; */
+
+   /* flex-shrink: 5; */
+/* grow(1)  (2)shrink  (3)basis */
+  /* flex: 1 5 o; */
+
+   /* order: -1; */

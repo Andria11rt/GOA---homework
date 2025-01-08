@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fc;
+}
+
+.results-container {
+    display: flex;
+    width: 700px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.score-section {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: white;
+    padding: 40px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.score-circle {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.score {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.out-of {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.status {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    opacity: 0.8;
+    text-align: center;
+    max-width: 220px;
+}
+
+.summary-section {
+    padding: 40px;
+    flex: 1;
+}
+
+.summary-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f1f3f5;
+}
+
+.label {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.reaction { color: #ff6b6b; }
+.memory { color: #ffd93d; }
+.verbal { color: #38d9a9; }
+.visual { color: #6c5ce7; }
+
+.value {
+    font-weight: bold;
+}
+
+.continue-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.continue-button:hover {
+    background-color: #555;
+}

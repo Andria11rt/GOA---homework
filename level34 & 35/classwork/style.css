@@ -1,0 +1,97 @@
+/*.heading-1{
+
+    color: red;
+    font-size: 50px;
+}
+
+.heading-2{
+
+    color: blue;
+    font-size: 50px;
+}
+
+span {
+
+    color: black;
+    font-size: 51px;
+}
+
+.btn{
+
+    background-color: black;
+    color: lime;
+    font-size: 30px;
+}*/
+
+/*.name{
+    color: brown;
+    font-size: 10px;
+}
+
+.A{ 
+    color: red;
+}
+
+.L{
+    color: aqua;
+}
+
+.M{
+
+    color: blueviolet;
+}
+
+.G{
+
+    color: blue;
+}
+
+.S{
+
+    color: orange;
+}
+
+.N{
+    
+    color: black;
+}
+
+.T{
+
+    color: purple;
+}
+
+.B{
+
+    color: lime;
+}
+
+.C{
+
+    color: green;
+}*/
+
+/* color names */
+/* rgb code - red, green and blue */
+/* hex code includes 6 symbol */
+
+h1{
+    color: #ff0000;
+    font-family: 'Courier New', 'Courier', 'Monospace',cursive;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+/* text-transform: 1. lowercase 2. uppercase 3. capitalize
+
+1.lowercase - როდესაც ჩვენ ვიყენებთ ამ მნიშნელობას. მაშინ ყველა 
+ასო ბგერა პატარავდება. მაგ: chad group 25
+
+2. uppercase - როდესაც ჩვენ ვიყენებთ ამ მნიშნელობას, მაშინ ყველა
+ასობგერა დიდება. მაგ: CHAD GROUP 25
+
+3. capitalize - როდესაც ჩვენ ვიყენებთ ამ მნიშნელობას, მაშინ ყოველი
+სიტყვის დიდი ასო დიდება მაგ: Chad Group
+
+*/

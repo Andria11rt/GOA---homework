@@ -1,0 +1,32 @@
+*{
+    padding: var(--padding);
+    margin: var(--margin);
+}
+
+
+:root{
+    --back-color: red;
+    --font-size: cursive;
+    --text-color: white;
+    --box-shadow: inset;
+    --border: 2px solid orange;
+    --border-radius: 50px 20px;
+    --margin: 50px;
+    --padding: 0;
+    --position: static;
+}
+
+
+
+.d{
+    color: var(--back-color);
+    background-color: var(--back-color);
+}
+
+div{
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    position: var(--position);
+}
+
