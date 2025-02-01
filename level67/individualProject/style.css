@@ -143,3 +143,149 @@ button:hover {
     animation-timing-function: normal;
 }
 
+@media (max-width: 1024px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #8B0000;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 90vh;
+    }
+    
+    h1{
+        display: flex;
+        gap: 20px;
+    }
+    .dIv {
+        display: flex;
+        gap: 20px;
+    }
+    
+    
+    p{
+        font-family: Georgia, serif;
+        color: white;
+    }
+    
+    .Div{
+        width: 300px;
+        border-radius: 52px;
+        background: linear-gradient(145deg, #b41313, #d61616);
+        box-shadow:  22px 22px 44px #9c1010,
+                 -22px -22px 44px #f41a1a;
+    
+    }
+    
+    button {
+        margin-top: 20px;
+        background-color: #FF4500;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    button:hover {
+        background-color: #FF4500;
+        animation-name: anim;
+        animation-duration: 5s;
+        animation-iteration-count: 3s;
+        animation-timing-function: normal;
+    }
+    @keyframes anim{
+        1%{
+            transform: rotate(20deg);
+            background-color: greenyellow;
+        }
+    
+        10%{
+            transform: rotate(60deg);
+        }
+    
+        20%{
+            transform: rotate(100deg);
+        }
+    
+        30%{
+            transform: rotate(135deg);
+        }
+    
+        40%{
+            transform: rotate(190deg);
+        }
+    
+        50%{
+            transform: rotate(230deg);
+            background-color: greenyellow;
+        }
+    
+        60%{
+            transform: rotate(260deg);
+        }
+    
+        70%{
+            background-color: greenyellow;
+            transform: rotate(290deg);
+        }
+    
+        80%{
+            transform: rotate(330deg);
+        }
+    
+        90%{
+            transform: rotate(360deg);
+        }
+    
+        100%{
+            background-color: #FF6347;
+    
+        }
+    }
+    .diV {
+        background-color: #B22222;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    .dIv img{
+        width: 270px;
+        height: 270px;
+        border-radius: 100px;
+    }
+    
+    .I{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        color: white;
+    }
+    
+    .Im{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        color: white;
+    }
+    
+    .I:hover{
+        animation-name: anim;
+        animation-duration: 5s;
+        animation-iteration-count: 3s;
+        animation-timing-function: normal;
+    }
+}

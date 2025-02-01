@@ -27,3 +27,23 @@ switch(choce) {
         alert("არასწორი დღე")
     }
 }
+
+let არჩევანი = parseInt(prompt("აირჩიეთ ამინდის რიცხვი"))
+
+switch(არჩევანი) {
+    case 1:
+        alert("მზიანი")
+        break;
+    case 2:
+        alert("წვიმიანი")
+        break;
+    case 3:
+        alert("მოღრუბლული")
+        break;
+    case 4:
+        alert("ქარიანი")
+        break;
+    default: {
+        alert("არ არის დადგენილი")
+    }
+}
