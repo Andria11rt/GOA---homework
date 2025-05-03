@@ -1,0 +1,15 @@
+
+.btnStyle {
+    font-size: 3em;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.newBtnStyle {
+    font-size: 5em;
+    font-weight: bold;
+    color: green;
+    text-transform: uppercase;
+}

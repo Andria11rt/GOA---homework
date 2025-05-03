@@ -8,3 +8,4 @@ products = ["carrot", 10, 1.4, True, False, "CHAD STUDENTS"]
 
 # print(products)
 
+
