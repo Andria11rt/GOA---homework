@@ -18,8 +18,8 @@ let productPrices = {
 }
 
 let totalPrice = 0;
-for (let info in productPrices) {
-  totalPrice += productPrices[info];
+for (let info1 in productPrices) {
+  totalPrice += productPrices[info1];
 }
 
 console.log(totalPrice); // პროდუქტების ფასების ჯამი
