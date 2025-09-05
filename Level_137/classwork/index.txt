@@ -1,0 +1,39 @@
+JSON (JavaScript Object Notation)
+JSON (JavaScript Object Notation) is a lightweight data interchange
+format that is easy for humans to read and write,
+and easy for machines to parse and generate.
+It is often used for transmitting data in web applications between a server and a client.
+
+
+
+JSON (JavaScript Object Notation)
+JSON (JavaScript Object Notation) არის მარტივი და მსუბუქი მონაცემთა გადაცემის ფორმატი,
+რომლის წაკითხვა და დაწერა ადამიანისთვის მარტივია, ხოლო მანქანებისთვის მისი დაპარსვა და
+გენერირება ადვილია. ის ხშირად გამოიყენება ვებ აპლიკაციებში მონაცემების გადასაცემად სერვერსა და კლიენტს შორის.
+
+
+
+JSON-ის მონაცემები იწერება თვისება/მნიშვნელობის სახით.
+
+თვისება ყოველთვის არის სტრიქონი, ხოლო მნიშვნელობა შეიძლება იყოს სტრიქონი (ტექსტური მნიშვნელობა), 
+ინტეგერი (რიცხვითი მნიშვნელობა), ობიექტი, მასივი, ბულიანი (Boolean) ან null (ნული).
+
+
+
+
+გამოყენება:
+
+JSON ხშირად გამოიყენება მონაცემების გასაცვლელად სერვერსა და ვებ აპლიკაციას შორის.
+
+ის არის ენისგან დამოუკიდებელი, რაც იმას ნიშნავს, რომ ის არ მიეკუთვნება რომელიმე კონკრეტულ პროგრამირების ენას, 
+მაგრამ ის გამოიყენება ბევრ სხვადასხვა პროგრამირების ენაში. 
+მაგალითად: C, C++, C#, Java, JavaScript, Perl, Python და კიდევ ბევრ სხვა ენაში.
+
+
+მეთოდები:
+
+JSON.parse(): შიფრავს JSON სტრიქონს და გარდაქმნის მას JavaScript ობიექტად.
+
+JSON.stringify(): გარდაქმნის JavaScript ობიექტს JSON სტრიქონად.
+
+
